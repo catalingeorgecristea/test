@@ -70,13 +70,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\Test.csproj">
-      <Project>{F186A6E6-09BF-405E-A6E1-4AA2815B191A}</Project>
-      <Name>Test</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\..\..\..\..\..\GIT\IRIS\catalingeorgecristea\IRIS\Test\Test.csproj">
+      <Project>{f186a6e6-09bf-405e-a6e1-4aa2815b191a}</Project>
+      <Name>Test</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
